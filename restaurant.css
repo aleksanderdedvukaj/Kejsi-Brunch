@@ -290,7 +290,7 @@ body{
 }
 
 .bestseller h1{
-  font-family: fantasy;
+  font-family: 'Papyrus', 'fantasy';
   color: rgba(74, 58, 35, 0.93);
   justify-content: flex-start; 
   font-size: 35px; 
@@ -344,14 +344,14 @@ body{
   word-wrap: break-word;
   overflow-wrap: break-word;
   margin: 0 0 10px 0;
-  font-family: fantasy;
+  font-family: 'Papyrus', 'fantasy';
   font-size: 22px;
 }
 .text-content-p{
   word-wrap: break-word;
   overflow-wrap: break-word;
   margin: 0 0 10px 0;
-  font-family: fantasy;
+  font-family: 'Papyrus', 'fantasy';
   font-size: 11px;
   font-weight: bolder;
 }
@@ -369,7 +369,7 @@ body{
   transition: 0.3s ease-in-out;
   font-size: large;
   font-weight: bold;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Papyrus', 'fantasy';
   right: 37%;
 }
 
@@ -424,14 +424,14 @@ body{
   word-wrap: break-word;
   overflow-wrap: break-word;
   margin: 0 0 10px 0;
-  font-family: fantasy;
+  font-family: 'Papyrus', 'fantasy';
   font-size: 22px;
 }
 .text-content1-p{
   word-wrap: break-word;
   overflow-wrap: break-word;
   margin: 0 0 10px 0;
-  font-family: fantasy;
+  font-family: 'Papyrus', 'fantasy';
   font-size: 11px;
   font-weight: bolder;
 }
@@ -450,7 +450,7 @@ body{
   transition: 0.3s ease-in-out;
   font-size: large;
   font-weight: bold;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Papyrus', 'fantasy';
   right: 37%;
 }
 
@@ -510,7 +510,7 @@ body{
   transition: 0.3s ease-in-out;
   font-size: medium;
   font-weight: 700;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Papyrus', 'fantasy';
   left: 35%;
 }
 
@@ -530,7 +530,7 @@ body{
 }
 
 .text-content-one h1{
-  font-family: fantasy; 
+  font-family: 'Papyrus', 'fantasy';
   font-size: medium;
   font-weight: bolder;
   font-size: 18px;
@@ -538,7 +538,7 @@ body{
 
 .text-content-one p{
   font-size: 12px;
-  font-family: fantasy;
+  font-family: 'Papyrus', 'fantasy';
   font-weight: bold;
   margin-top: 10px;
 }
@@ -596,7 +596,7 @@ body{
   transition: 0.3s ease-in-out;
   font-size: medium;
   font-weight: 700;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Papyrus', 'fantasy';
   
 }
 
@@ -615,7 +615,7 @@ body{
   color: rgb(0, 0, 0);
 }
 .text-content-two h1{
-  font-family: fantasy; 
+  font-family: 'Papyrus', 'fantasy';
   font-size: medium;
   font-weight: bolder;
   font-size: 18px;
@@ -623,7 +623,7 @@ body{
 
 .text-content-two p{
   font-size: 12px;
-  font-family: fantasy;
+  font-family: 'Papyrus', 'fantasy';
   font-weight: bold;
   margin-top: 10px;
 }
