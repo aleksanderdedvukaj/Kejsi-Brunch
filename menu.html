@@ -26,6 +26,26 @@
       .menu-box-three img{
         border-radius: 8px;
       }
+      .menu-box-two h1{
+        margin-left: 13vh;
+        margin-top: 25px; 
+        font-size: 40px; 
+        font-weight: bolder; 
+        color: rgb(119, 24, 24);
+      }
+      @media(max-width: 916px){
+        .menu-box-two{
+          left: 0;
+        }
+        .menu-box-two h1{
+          font-size: 22px;
+        }
+        .menu-img1, .menu-img2{
+          max-width: 100%;
+          height: auto;
+          display: block;
+        }
+      }
     </style>
     <link rel="stylesheet" href="restaurant.css">
 </head>
@@ -70,13 +90,13 @@
       <p style="margin-left: 13vh;">Our Menu <span style="color: rgba(143, 12, 12, 0.7);">_____</span></p>
     </div>
     <div class="menu-box-two">
-      <h1 style="margin-left: 13vh; margin-top: 25px; font-size: 40px; font-weight: bolder; color: rgb(119, 24, 24);">An Unforgetable <br>Italian Dining <br>Experience.</h1>
+      <h1 >An Unforgetable <br>Italian Dining <br>Experience.</h1>
       <div style="height: 2px; background-color: rgba(143, 12, 12, 0.7); width: 100%; margin: 20px 0;"></div>
     </div>
     <div class="menu-box-three">
-      <img src="kejsi-menu2.png" alt="menu2">
+      <img class="menu-img1" src="kejsi-menu2.png" alt="menu2">
       <div style="height: 2px; background-color: rgba(143, 12, 12, 0.7); width: 100%; margin: 20px 0;"></div>
-      <img src="kejsi-menu1.png" alt="menu1">
+      <img class="menu-img2" src="kejsi-menu1.png" alt="menu1">
     </div>
   </main>
   <footer>
