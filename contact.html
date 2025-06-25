@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+      .the-outside {
+        align-items: center;
+        display: flex;
+        margin-top: 25px;
+        margin-left: 100px;
+      }
+      .outside-img{
+        border-radius: 8px;
+        height: 700px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+      .contact{
+        background-color: rgb(173, 140, 140);
+        width: 100%;
+        height: 700px;
+        border-radius: 8px;
+        margin-right: 100px;
+        margin-left: 25px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+      .contact-description{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 45px;
+      }
+      .contact-description h3 {
+        font-family: fantasy;
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+      }
+      .contact-description p {
+        font-size: 18px;
+        color: rgb(222, 212, 202);
+        font-family: sans-serif;
+        font-weight: normal;
+        margin-top: 15px;
+      }
+      .contact-map {
+        border-radius: 8px;
+        width: 92%;
+        height: 450px;
+        margin-top: 25px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+      .iframe-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8px;
+      }
+    </style>
+    <link rel="stylesheet" href="restaurant.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+      <a href="restaurant.html" class="home-link"><img src="KEJSI_white_text_logo_260.png" alt="Kejsi Logo" class="logo"></a>
+      <div class="sayings">
+        <p class="nav-cc">"Italian Inspired Brunch..."<br>"Mangiare è un atto d'amore. Chi mangia bene, vive bene..."</p>
+        <h2 class="now-open">Now Open!</h2>
+      </div>
+      <ul class="nav-menu" id="navMenu">
+        <li class="nav-item">
+          <a href="restaurant.html" class="nav-link"></a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.doordash.com/en/store/kejsi-brunch-clinton-township-33345025/57922747/?srsltid=AfmBOooou6Vy_jlc9DTgjD_JbAxkZCtJMLY7Jio-3vTN_nOox-jlpVwO" target="_blank" class="nav-link">Order Now</a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.opentable.com" target="_blank" class="nav-link">Reservations</a>
+        </li>
+        <li class="nav-item">
+          <a href="menu.html" class="nav-link">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">About</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="images-box">
+      <div class="the-outside">
+        <img src="kejsi-outside.jpg" class="outside-img" alt="outside">
+        <div class="contact">
+          <div class="contact-description">
+            <h3>Find Us At<span style="color: rgb(108, 56, 8);">___</span></h3>
+            <p><a style="text-decoration: underline; background-color: rgb(173, 140, 140); cursor: pointer;" href="https://www.google.com/maps/place/Kejsi+brunch/@42.5984989,-82.9739493,17z/data=!3m1!4b1!4m6!3m5!1s0x8824df40e23a14c1:0xf71e57b65fbb3102!8m2!3d42.5984989!4d-82.9713744!16s%2Fg%2F11ybvbvjrk?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">41170 Hayes Rd, Clinton Township, MI 48038</a></p>
+          </div>
+          <div class="contact-description">
+            <h3>Working Hours<span style="color: rgb(108, 56, 8);">___</span></h3>
+            <p>Tuesday - Sunday: 8:00 AM - 3:00 PM</p>
+            <p>Monday - <span style="color: rgb(123, 9, 9);">Closed</span></p>
+          </div>
+          <div class="contact-description">
+            <h3>Phone & Email<span style="color: rgb(108, 56, 8);">___</span></h3>
+            <p>Phone: (586) 223-9420</p>
+            <p>Email: support@kejsi.com
+          </div>
+        </div>
+      </div>
+      <div class="iframe-wrapper">
+        <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2936.9642116798045!2d-82.9739493236624!3d42.59850282000366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824df40e23a14c1%3A0xf71e57b65fbb3102!2sKejsi%20brunch!5e0!3m2!1sen!2sus!4v1750563192784!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2023 Kejsi Brunch. All rights reserved.</p>
+      <p class="p-location"><a target="_blank" href="https://www.google.com/maps/place/Kejsi+brunch/@42.5984989,-82.9739493,17z/data=!3m1!4b1!4m6!3m5!1s0x8824df40e23a14c1:0xf71e57b65fbb3102!8m2!3d42.5984989!4d-82.9713744!16s%2Fg%2F11ybvbvjrk?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D">41170 hayes rd, Clinton Township, Michigan 48038</a></p>
+      <p>Follow us on social media:</p>
+      <ul class="social-media">
+        <li><a target="_blank" href="https://www.facebook.com/profile.php?id=61565244351122"><img src="icons8-facebook-50.png" alt="Facebook" class="logo-footer"></a></li>
+        <li><a target="_blank" href="https://www.tiktok.com/@kejsi.brunch"><img src="icons8-tiktok-logo-50.png" alt="TikTok" class="logo-footer"></a></li>
+        <li><a target="_blank" href="https://www.instagram.com/kejsi_brunch/"><img src="icons8-instagram-logo-50.png" alt="Instagram" class="logo-footer"></a></li>
+      </ul>
+    </div>
+  </footer>
+    <script src="restaurant.js"></script>
+</body>
+</html>
