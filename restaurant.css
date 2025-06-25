@@ -146,6 +146,22 @@ a{
     border-top-left-radius: 22px;
     border-bottom-right-radius: 0 !important;
   }
+  .box-one-button{
+    align-items: center;
+    position: static !important;
+    bottom: 0 !important;
+  }
+  .box-two-button{
+    align-items: center;
+    position: static !important;
+    bottom: 0 !important;
+  }
+  .text-content-one{
+    position: static !important;
+  }
+  .text-content-two{
+    position: static !important;
+  }
   .box-two-overlay{
     bottom: 0 !important;
     width: 90% !important;
@@ -169,6 +185,38 @@ a{
     top: 50% !important;
     border-top-left-radius: 22px;
     border-bottom-right-radius: 0 !important;
+  }
+  .text-content-p{
+    display: none !important;
+  }
+  .text-content-h1{
+    font-size: 19px !important;
+  }
+  .text-content1-h1{
+    font-size: 19px !important;
+  }
+  .text-content1-p{
+    display: none;
+  }
+  .box1-button{
+    align-items: center;
+    position: static!important;
+    margin-top: 14px !important;
+  }
+  .box2-button{
+    align-items: center;
+    position: static!important;
+    margin-top: 14px !important;
+  }
+  .box-wrapper{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .box-one-button, .box-two-button{
+    bottom: 16px !important;
   }
 }
   .nav-menu{
@@ -339,7 +387,7 @@ body{
   min-height: 300px;
   margin-bottom: 40px;
   margin-top: 80px;
-  background-image: url(reserve.png);
+  background-image: url(pt-reserve.jpg);
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   border-radius: 22px;
